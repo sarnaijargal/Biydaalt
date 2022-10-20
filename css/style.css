@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .nav{
     display: flex;
     height: 84px;
@@ -43,12 +46,28 @@ header .left{
     flex: 1;
     background-color: #efb98c;
 }
-header.prosper{
+.Prosper{
+    
     margin: 117px;
-    color: rgb(34, 34, 64);
+    color: rgb(22, 22, 103);
     width: 576px;
-    height: 144px;
+    height: 439px;
     top: 201px;
     left: 320px;
+    size: 64px;
+    line-height: 72px;
+}
+.lorem{
+    position: absolute;
+    width: 571px;
+    height: 60px;
+    left: 321px;
+    top:357px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color:rgb(33, 33, 60);
+
 }
 
